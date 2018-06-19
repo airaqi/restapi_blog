@@ -7,6 +7,8 @@ The application is devided into several modules
 
 # Usage
 Run the application either using 
+```
         node server.js
+```
 or using 
         npm start
