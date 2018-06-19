@@ -11,4 +11,7 @@ Run the application either using
         node server.js
 ```
 or using 
-        npm start
+```
+       npm start
+```
+ 
