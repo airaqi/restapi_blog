@@ -1,5 +1,8 @@
 # posts post data
-curl -H "Content-Type: application/json" -X POST -d '{"name": "Top 10 ES6 Features", "url":"http://webapplog.com/es6", "text": ""}'  "http://localhost:3000/posts" 
+curl -H "Content-Type: application/json" -X POST -d '{"name": "Top 10 ES6 Features (1)", "url":"http://webapplog.com/es6", "text": ""}'  "http://localhost:3000/posts" 
+curl -H "Content-Type: application/json" -X POST -d '{"name": "Top 10 ES6 Features (2)", "url":"http://webapplog.com/es6", "text": ""}'  "http://localhost:3000/posts" 
+curl -H "Content-Type: application/json" -X POST -d '{"name": "Top 10 ES6 Featuresi (3)", "url":"http://webapplog.com/es6", "text": ""}'  "http://localhost:3000/posts" 
+read -p "Press any key to continue..."
 
 # updates post data at specific id
 curl -H 'Content-Type: application/json' -X PUT -d '{"name": "Top 10 ES6 Features Every Developer Must Know", "url":"http://webapplog.com/es6", "text": ""}' "http://localhost:3000/posts/0"
