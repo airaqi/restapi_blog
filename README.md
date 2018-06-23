@@ -16,11 +16,11 @@ The application is devided into several modules
 ```
 3. Run the application either using 
 ```
-        node server.js
+    node server.js
 ```
 or using 
 ```
-       npm start
+    npm start
 ```
 4. Use  curl or Postman for testing the application, or you can use the test.sh file located hereunder containing 
 the basic API calls for adding, updating, getting and delteing both posts and comments.
