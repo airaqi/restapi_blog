@@ -1,17 +1,18 @@
 # REST API, Blog Assignment
+## Introduction
 The application is devided into several modules
 * server.js - contains all the main application server module
 * routes - contains all main components of the application 
 * routes/posts.js - handles all posts CRUD functions
 * routes/comments.js - handles all comments CRUD functions. 
 
-# Design Notes
+## Design Notes
 * The store has been defined as global in order to be accessable from all modules.
 * ```JSON.stringfy``` has been user for readable JSON output.
 * Posts names' added are validated if they already exists in the store, if so an error message is returned, rather the same approuch are ignored for the comments, since peoples' comments tend to be identical and copied, so no point in preventing comments from being replicated.
 * Middleware is used to capture malformed JSON messages, and respond with HTTP error 400 to user.
 
-# Usage
+## Usage
 1. Download the module or clone the module using git clone as follows:
 ```
     git clone https://github.com/airaqi/restapi_blog.git
