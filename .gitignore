@@ -1,4 +1,4 @@
-node_modules\
-routes\tags
+node_modules/
+routes/tags
 tags
 *.swp
