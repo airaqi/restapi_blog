@@ -2,9 +2,18 @@ const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
 const errorhandler = require('errorhandler');
+const fs = require('fs');
 
 const routes = require('./routes');
 const port = 3000;
+
+// print the banner
+console.info('--------------------------------------------------------------');
+var str = fs.readFileSync('banner.txt', 'utf-8');
+console.log(str);
+console.info('--------------------------------------------------------------');
+console.info('Blog server started...');
+console.info('Request posts logs will be dispayed down below:');
 
 // store definition as global variable to be accessable from all modules
 global.store = {};
